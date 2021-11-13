@@ -1,5 +1,5 @@
 const debug = require("debug")("users:database");
-const { mongoose } = require("mongoose");
+const mongoose = require("mongoose");
 
 const connectDB = (connectionString) =>
   new Promise((resolve, reject) => {
