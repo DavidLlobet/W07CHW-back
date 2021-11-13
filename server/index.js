@@ -28,4 +28,4 @@ app.use(morgan("dev"));
 app.use(cors());
 app.use(express.json());
 
-module.exports = { initializeServer };
+module.exports = { initializeServer, app };
