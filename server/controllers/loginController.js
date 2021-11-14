@@ -27,7 +27,7 @@ const userLogin = async (req, res, next) => {
           name: user.name,
           admin: user.admin,
         },
-        process.env.SERVER_PORT,
+        process.env.SECRET,
         {
           expiresIn: 72 * 60 * 60,
         }
